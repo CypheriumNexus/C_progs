@@ -1,0 +1,90 @@
+// Programmer: John Bagwell, Brain Lorick, Tyler Goss
+// Date:		02/14/2024
+// Program Name:	Working With Strings
+// Chapter:		Chapter 3 Decisions
+// Description:		Program will prompt both users for their first names. Program compares strings (names) to determine name of greater length,
+//			name that comes first in alphabetical order, and finally program converts the last character in the relevant name to uppercase.
+
+
+#define _CRT_SECURE_NO_WARNINGS // Disable warnings (and errors) when using non-secure versions of printf, scanf, strcpy, etc.
+#include <stdio.h>              // Needed for working with printf and scanf
+#include <string.h>             // Used for strcmp() etc.
+#include <ctype.h>              // Used for toupper() etc.
+
+int main(void)
+{
+	// Constant and Variable Declarations
+	char name1[50];             // name1 variable and limits the name to 50 characters
+	char name2[50];             // name2 variable and limits the name to 50 characters
+	int length1;                // Stores length value of name1 with no decimals
+	int length2;                // Stores length value of name2 with no decimals
+	int comparison;             // Stores Resulting value of comparison with no decimals
+
+	// INPUT
+	// Prompt user(s) for first name(s). Display input to user(s).
+	// Uses %s to asign value to name1 and name2 
+	printf("Enter your first name: ");
+	scanf("%s", name1);
+
+	printf("Enter your partner's first name: ");
+	scanf("%s", name2);
+
+	printf("\n");
+
+	// PROCESSING
+	// Calculate length of names/strings.
+	length1 = strlen(name1); //Asigns value to length1
+	length2 = strlen(name2); //Asigns value to length2
+
+
+	// Decision to determine name with greater length -OR- if the lengths are the same.
+	// Uses if/else statments less than, greater than to get the value of name1 and name2
+	if (length1 > length2)
+	{
+		printf("%s is the longer name.\n", name1);
+	}
+
+	else if (length1 < length2)
+	{
+		printf("%s is the longer name.\n", name2);
+	}
+
+	else
+	{
+		printf("The 2 names, %s and %s, are equal lengths.\n", name1, name2);
+	}
+
+
+	// Compare names alphabetically. 
+	// Asigns the value of comparison from strcmp
+	comparison = strcmp(name1, name2);
+
+
+	// Determine which name is first in alphabetical order.
+	// Uses the if/else less than, greater than statments to get the name that is alphabetically 1st
+	if (comparison < 0)
+	{
+		printf("The name that comes first alphabetically is %s.\n", name1);
+	}
+
+	else if (comparison > 0)
+	{
+		printf("The name that comes first alphabetically is %s.\n", name2);
+	}
+
+
+	// Display name in standard format.
+	printf("%s with the last character converted to uppercase is ", name1);
+
+	// Capitalize last character in string.
+	// Uses toupper to convert the givin character to uppercase
+	name1[length1 - 1] = toupper(name1[length1 - 1]);
+
+	// Display name capitalizing the last character.
+	// Uses the %s to diplay the name with uppercased letter
+	printf("%s.\n\n", name1);
+
+
+
+	return 0;
+} // end main()

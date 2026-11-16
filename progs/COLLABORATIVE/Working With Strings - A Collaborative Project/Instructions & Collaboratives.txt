@@ -1,0 +1,57 @@
+Project: 	Working With Strings
+Chapter: 	#3 Decisions
+Due Date: 	02/15/2024
+Due Time: 	11:59pm
+
+Collaboratives:
+
+	Brian Lorick
+	864-651-0196
+
+	John Bagwell
+	864-607-5697
+
+	Tyler Goss
+	864-749-4309
+
+
+
+Working with Strings - a collaborative program
+
+ASSIGNMENT:
+
+Write a program that asks the user for 2 names and displays which name has more characters, which name would come first alphabetically, and finally convert the last character in the first name to uppercase.
+
+When constructing the program, account for the names being equal in length.
+
+
+Example Run #1:
+(bold type is what is entered by the user)
+
+Enter your first name: George
+Enter your partner's first name: Billy
+
+George is the longer name.
+The name that comes first alphabetically is Billy.
+George with the last character converted to uppercase is GeorgE.
+
+The example run shows EXACTLY how your program input and output will look.
+
+
+Example Run #2:
+
+Enter your first name: Scott
+Enter your partner's first name: Billy
+
+The 2 names, Scott and Billy, are equal lengths.
+The name that comes first alphabetically is Billy.
+Scott with the last character converted to uppercase is ScotT.
+
+The example runs shows EXACTLY how your program input and output will look.
+
+
+
+
+
+
+
