@@ -41,40 +41,52 @@ The repository serves as an educational reference and a record of programming ex
 ```text
 C_progs/
 │
+├── LICENSE
 ├── README.md
 │
-├── Assignments/
-│   ├── Assignment_01/
-│   ├── Assignment_02/
-│   └── Assignment_03/
+├── docs/
+│   ├── 2D Rainfall.md
+│   ├── 2D Sum of Columns.md
+│   ├── Average an Array.md
+│   ├── Average of 2 Highest.md
+│   ├── C to F.md
+│   ├── How Many.md
+│   ├── MPH.md
+│   ├── Minutes, Hours, Days.md
+│   ├── MyToUpper.md
+│   ├── Progs 2, 3, 4.md
+│   ├── Rainfall Stats.md
+│   ├── Random Numbers.md
+│   ├── Reverse and Average.md
+│   ├── Sales Commission.md
+│   ├── Shapes with Asterisks.md
+│   ├── Shipping Charges.md
+│   ├── Split Double.md
+│   └── Stock Price.md
 │
-├── Projects/
-│   ├── Project_01/
-│   ├── Project_02/
-│   └── Project_03/
-│
-├── Practice/
-│   ├── Variables_DataTypes/
-│   ├── Operators_Expressions/
-│   ├── Conditional_Statements/
-│   ├── Loops/
-│   ├── Arrays/
-│   ├── Functions/
-│   └── Input_Output/
-│
-├── Examples/
-│   ├── Basic_Programs/
-│   ├── Mathematical_Operations/
-│   └── Menu_Driven_Programs/
-│
-├── Documentation/
-│   ├── Notes/
-│   ├── Flowcharts/
-│   └── Pseudocode/
-│
-└── Resources/
-    ├── References.md
-    └── Course_Materials/
+└── progs/
+    ├── README.md
+    │
+    ├── 2D Rainfall/
+    ├── 2D Sum of Columns/
+    ├── Average an Array/
+    ├── Average of 2 Highest/
+    ├── Bubble Sort/
+    ├── C to F/
+    ├── COLLABORATIVE/
+    ├── How Many/
+    ├── MPH/
+    ├── Minutes, Hours, Days/
+    ├── MyToUpper/
+    ├── Progs 2, 3, 4/
+    ├── Rainfall Stats/
+    ├── Random Numbers/
+    ├── Reverse and Average/
+    ├── Sales Commission/
+    ├── Shapes with Asterisks/
+    ├── Shipping Charges/
+    ├── Split Double/
+    └── Stock Price/
 ```
 
 ---
