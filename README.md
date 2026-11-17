@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="66" alt="C Programming Language Logo" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="68" alt="C Programming Language Logo" />
 </p>
 
 <p align="center">
@@ -16,48 +16,23 @@
   <img src="https://img.shields.io/badge/Language-C-00599C?style=flat-square&logo=c&logoColor=white" alt="Language: C" />
   <img src="https://img.shields.io/badge/IDE-Visual%20Studio%202019-5C2D91?style=flat-square&logo=visualstudio&logoColor=white" alt="IDE: Visual Studio 2019" />
   <img src="https://img.shields.io/badge/Course-CPT%20234-007ACC?style=flat-square" alt="Course: CPT 234" />
-  <img src="https://img.shields.io/badge/Repository-Academic%20Portfolio-2E8B57?style=flat-square" alt="Academic portfolio" />
+  <img src="https://img.shields.io/badge/Portfolio-Academic%20Projects-2E8B57?style=flat-square" alt="Academic portfolio" />
 </p>
 
 ---
 
-## Contents
-
 <p align="center">
-  <strong>
-    <a href="#-about-this-repository">01. Overview</a> •
-    <a href="#-repository-organization">02. Repository Structure</a> •
-    <a href="#-program-collection">03. Program Collection</a> •
-    <a href="#-technical-documentation">04. Documentation</a>
-  </strong>
+  <strong>REPOSITORY CONTENTS</strong>
   <br />
-  <strong>
-    <a href="#-development-environment">05. Development Environment</a> •
-    <a href="#-programming-topics">06. Programming Topics</a> •
-    <a href="#-building-and-running-programs">07. Build &amp; Run</a>
-  </strong>
-  <br />
-  <strong>
-    <a href="#-academic-integrity-and-disclaimer">08. Academic Integrity</a> •
-    <a href="#-repository-purpose">09. Repository Purpose</a> •
-    <a href="#-license">10. License</a>
-  </strong>
+  <sub>Select any numbered heading below to expand its section. Each heading is both a table-of-contents entry and its content dropdown.</sub>
 </p>
 
-<p align="center">
-  <sub>Select a section to jump directly to its contents. Expandable sections are available throughout this README.</sub>
-</p>
-
----
-
-## 01. 📖 About This Repository
-
-<details open>
-<summary><strong>Repository Overview</strong></summary>
+<details>
+<summary><h2 align="center">01. 📖 About This Repository</h2></summary>
 
 **C_progs** is a collection of C programming assignments, exercises, and practical applications developed as part of **CPT 234 – C Programming I**.
 
-The repository documents coursework and hands-on practice in fundamental programming techniques. The projects demonstrate how programming concepts are translated into working console applications through source-code development, algorithmic thinking, testing, and debugging.
+This repository documents hands-on practice in fundamental programming techniques. The projects demonstrate how programming concepts are translated into working console applications through source-code development, algorithmic thinking, testing, and debugging.
 
 The programs were developed using **Microsoft Visual Studio 2019**. The repository includes C source files and, where applicable, Visual Studio solution and project configuration files.
 
@@ -72,10 +47,8 @@ This is an academic portfolio and learning reference. It is not presented as a p
 
 </details>
 
-## 02. 📂 Repository Organization
-
-<details open>
-<summary><strong>Directory Map</strong></summary>
+<details>
+<summary><h2 align="center">02. 📂 Repository Structure</h2></summary>
 
 The following map reflects the top-level organization and named program folders in the repository.
 
@@ -107,7 +80,6 @@ C_progs/
 │
 └── progs/
     ├── README.md
-    │
     ├── 2D Rainfall/
     ├── 2D Sum of Columns/
     ├── Average an Array/
@@ -130,21 +102,19 @@ C_progs/
     └── Stock Price/
 ```
 
-### Directory responsibilities
+**Directory responsibilities**
 
-- **`docs/`** — contains individual Markdown documents describing selected programs, their logic, variables, operators, execution sequence, and flowcharts.
-- **`progs/`** — contains the program directories. Depending on the assignment, a directory may contain a C source file, a Visual Studio solution (`.sln`), a project file (`.vcxproj`), filters, and user-specific project settings.
-- **`progs/COLLABORATIVE/`** — reserved for collaborative programming work.
+- **`docs/`** — Markdown documents describing selected programs, their logic, variables, operators, execution sequence, and flowcharts.
+- **`progs/`** — program directories. Depending on the assignment, a directory may contain C source code, a Visual Studio solution (`.sln`), project file (`.vcxproj`), filters, and user-specific project settings.
+- **`progs/COLLABORATIVE/`** — directory for collaborative programming work.
 - **`progs/README.md`** — an additional entry point for the program collection.
 
-**Note:** The directory map intentionally shows the main organizational structure rather than every generated Visual Studio build artifact. Existing project directories may contain configuration and build-output subdirectories such as `Debug/`.
+**Note:** This map focuses on the main organizational structure rather than every generated Visual Studio build artifact. Individual project folders may also contain configuration and build-output directories such as `Debug/`.
 
 </details>
 
-## 03. 🗃️ Program Collection
-
-<details open>
-<summary><strong>Programs and Project Folders</strong></summary>
+<details>
+<summary><h2 align="center">03. 🗃️ Program Collection</h2></summary>
 
 The `progs/` directory contains the following project folders. Select a folder to browse its source files and any included Visual Studio project files.
 
@@ -171,18 +141,14 @@ The `progs/` directory contains the following project folders. Select a folder t
 | Split Double | [`progs/Split Double/`](progs/Split%20Double/) |
 | Stock Price | [`progs/Stock Price/`](progs/Stock%20Price/) |
 
-The program names describe the folders and assignment topics. Refer to the source code and associated notes for the exact requirements, implementation details, and behavior of each program.
+The folder names identify the project topics. Refer to the source code and any associated notes for the exact requirements, implementation details, and behavior of each program.
 
 </details>
 
-## 04. 📝 Technical Documentation
+<details>
+<summary><h2 align="center">04. 📝 Technical Documentation</h2></summary>
 
-<details open>
-<summary><strong>Program Notes, Explanations &amp; Flowcharts</strong></summary>
-
-The `docs/` directory contains Markdown-based technical notes for selected programs. These documents are intended to make the source code easier to follow by explaining the design and execution logic behind each exercise.
-
-### Available documentation
+The `docs/` directory contains Markdown-based technical notes for selected programs. These documents make the source code easier to follow by explaining the design and execution logic behind each exercise.
 
 | Document | Description / Topic |
 |:---|:---|
@@ -202,27 +168,17 @@ The `docs/` directory contains Markdown-based technical notes for selected progr
 | [Sales Commission](docs/Sales%20Commission.md) | Sales totals, commission logic, and calculations. |
 | [Shapes with Asterisks](docs/Shapes%20with%20Asterisks.md) | Nested loops and formatted character output. |
 | [Shipping Charges](docs/Shipping%20Charges.md) | Conditional calculations for shipping costs. |
-| [Split Double](docs/Split%20Double.md) | Separating or processing parts of a floating-point value. |
+| [Split Double](docs/Split%20Double.md) | Processing parts of a floating-point value. |
 | [Stock Price](docs/Stock%20Price.md) | Numeric data and stock-price calculations. |
 
-Documentation may include:
-
-- Program overview and problem description.
-- Header files, variables, constants, and data structures.
-- Explanation of operators, statements, and control structures.
-- Step-by-step processing logic.
-- Text-based program flowcharts.
-- Program characteristics and learning observations.
-- Summaries of the concepts demonstrated.
+Documentation may include program overviews, header files, variables, constants, data structures, operators, processing logic, execution sequences, text-based flowcharts, and learning observations.
 
 A documentation file is not necessarily present for every program folder. The table above lists the Markdown files currently stored in `docs/`.
 
 </details>
 
-## 05. 🧰 Development Environment
-
 <details>
-<summary><strong>Tools, Technologies &amp; Configuration</strong></summary>
+<summary><h2 align="center">05. 🧰 Development Environment</h2></summary>
 
 | Component | Implementation |
 |:---|:---|
@@ -234,7 +190,7 @@ A documentation file is not necessarily present for every program folder. The ta
 | Project Files | `.sln`, `.vcxproj`, and related configuration files |
 | Course | CPT 234 – C Programming I |
 
-### Development workflow
+**Development workflow**
 
 1. Review the assignment requirements and identify the problem to solve.
 2. Plan the program logic and required variables or data structures.
@@ -248,10 +204,12 @@ The exact files included vary by project. Some folders contain a Visual Studio s
 
 </details>
 
-## 06. 🧠 Programming Topics
-
 <details>
-<summary><strong>01 — C Language Fundamentals</strong></summary>
+<summary><h2 align="center">06. 🧠 Programming Topics</h2></summary>
+
+The following topics summarize concepts represented across the coursework. Not every program uses every technique listed.
+
+**01 — C Language Fundamentals**
 
 - Program structure and the `main()` function
 - Header files and preprocessor directives
@@ -261,23 +219,15 @@ The exact files included vary by project. Some folders contain a Visual Studio s
 - Standard input and output
 - Basic type conversion
 
-</details>
+**02 — Operators & Expressions**
 
-<details>
-<summary><strong>02 — Operators &amp; Expressions</strong></summary>
-
-- Arithmetic operators
-- Assignment and compound assignment
-- Relational and equality operators
-- Logical operators
+- Arithmetic, assignment, and compound assignment operators
+- Relational, equality, and logical operators
 - Increment and decrement
 - Operator precedence
 - Expressions and calculations
 
-</details>
-
-<details>
-<summary><strong>03 — Selection &amp; Decision Making</strong></summary>
+**03 — Selection & Decision Making**
 
 - `if` and `else` statements
 - Nested conditional statements
@@ -285,34 +235,22 @@ The exact files included vary by project. Some folders contain a Visual Studio s
 - Comparisons and logical conditions
 - Branching and decision-making logic
 
-</details>
+**04 — Iteration & Repetition**
 
-<details>
-<summary><strong>04 — Iteration &amp; Repetition</strong></summary>
-
-- `for` loops
-- `while` loops
-- `do-while` loops
+- `for`, `while`, and `do-while` loops
 - Nested loops
 - Loop counters and termination conditions
 - `break` and `continue`
 
-</details>
+**05 — Arrays & Data Processing**
 
-<details>
-<summary><strong>05 — Arrays &amp; Data Processing</strong></summary>
-
-- One-dimensional arrays
-- Two-dimensional arrays
+- One-dimensional and two-dimensional arrays
 - Array initialization and indexing
 - Traversing arrays with loops
 - Accumulators and counters
 - Searching, sorting, and summarizing values
 
-</details>
-
-<details>
-<summary><strong>06 — Characters, Strings &amp; Functions</strong></summary>
+**06 — Characters, Strings & Functions**
 
 - Character data and character handling
 - Character arrays and strings
@@ -321,10 +259,7 @@ The exact files included vary by project. Some folders contain a Visual Studio s
 - Parameters, arguments, and return values
 - Basic modular programming
 
-</details>
-
-<details>
-<summary><strong>07 — Output Formatting &amp; Problem Solving</strong></summary>
+**07 — Output Formatting & Problem Solving**
 
 - Formatted output with `printf()`
 - Format specifiers and decimal precision
@@ -335,36 +270,30 @@ The exact files included vary by project. Some folders contain a Visual Studio s
 
 </details>
 
-The topics above summarize concepts represented across the coursework. They are not a claim that every project uses every listed technique.
-
-</details>
-
-## 07. ⚙️ Building and Running Programs
-
 <details>
-<summary><strong>Visual Studio 2019 — Suggested Workflow</strong></summary>
+<summary><h2 align="center">07. ⚙️ Building and Running Programs</h2></summary>
 
-### Option A — Open an existing Visual Studio solution
+**Option A — Open an existing Visual Studio solution**
 
 1. Clone or download this repository.
 2. Open the desired program folder under `progs/`.
 3. Locate the solution file (`.sln`), when one is included.
 4. Open the solution in Microsoft Visual Studio 2019.
 5. Confirm the appropriate startup project and build configuration.
-6. Build the project using **Build > Build Solution**.
-7. Run the application using **Debug > Start Without Debugging** or the debugger.
+6. Build the project using **Build → Build Solution**.
+7. Run the application using **Debug → Start Without Debugging** or the debugger.
 8. Review the console output and test the program's behavior.
 
-### Option B — Build an individual C source file
+**Option B — Build an individual C source file**
 
 1. Open Visual Studio 2019.
-2. Create a new **Console App** project.
+2. Create a new Console App project.
 3. Add the selected `.c` source file to the project.
 4. Confirm that the file is compiled as C source code.
 5. Review any project-specific requirements or dependencies.
 6. Build and run the application.
 
-### Notes
+**Important notes**
 
 - Not every program folder necessarily contains a ready-to-open solution file.
 - Visual Studio project settings can vary between assignments.
@@ -374,16 +303,16 @@ The topics above summarize concepts represented across the coursework. They are 
 
 </details>
 
-## 08. ⚖️ Academic Integrity and Disclaimer
-
 <details>
-<summary><strong>Educational Use, Attribution &amp; Responsibility — Read Carefully</strong></summary>
+<summary><h2 align="center">08. ⚖️ Academic Integrity &amp; Disclaimer</h2></summary>
 
-**IMPORTANT: THESE MATERIALS ARE PROVIDED FOR EDUCATIONAL AND REFERENCE PURPOSES ONLY.**
+<blockquote>
+  **IMPORTANT: THESE MATERIALS ARE PROVIDED FOR EDUCATIONAL AND REFERENCE PURPOSES ONLY.**
+</blockquote>
 
 This repository contains programming coursework, exercises, source code, and related documentation developed in connection with **CPT 234 – C Programming I**.
 
-### Academic integrity
+**Academic integrity**
 
 These materials are **not provided or authorized for plagiarism, cheating, or academic dishonesty**.
 
@@ -398,7 +327,7 @@ Anyone accessing this repository is expected to:
 
 **Access to publicly available source code does not grant permission to misrepresent authorship or bypass academic requirements.**
 
-### Disclaimer of responsibility
+**Disclaimer of responsibility**
 
 The repository owner does not encourage, authorize, or endorse plagiarism, cheating, academic misconduct, or any other improper use of these materials.
 
@@ -412,10 +341,8 @@ Users are solely responsible for how they access, study, modify, reproduce, dist
 
 </details>
 
-## 09. 🎯 Repository Purpose
-
 <details>
-<summary><strong>Learning Record &amp; Programming Portfolio</strong></summary>
+<summary><h2 align="center">09. 🎯 Repository Purpose</h2></summary>
 
 This repository serves as an organized record of C programming coursework and the practical skills developed through the assignments.
 
@@ -432,10 +359,8 @@ The collection reflects coursework completed in an academic learning environment
 
 </details>
 
-## 10. 📄 License
-
 <details>
-<summary><strong>Repository License</strong></summary>
+<summary><h2 align="center">10. 📄 License</h2></summary>
 
 This repository includes a [LICENSE](LICENSE) file. Review that file for the applicable terms governing use, modification, and redistribution.
 
